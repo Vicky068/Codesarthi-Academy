@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- SEO Meta Tags -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CodeSarthi Academy | Learn C++, Java &amp; MERN Stack</title>
+  
+  <meta name="description" content="Learn C++, Java, DSA and MERN Stack through live coding classes, assignments and projects." />
+  <meta name="keywords" content="C++, Java, MERN Stack, Coding Classes, Programming Course, DSA, Web Development" />
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://codesarthi-academy.vercel.app/">
+  <meta property="og:title" content="CodeSarthi Academy | Learn C++, Java &amp; MERN Stack">
+  <meta property="og:description" content="Master C++, Java and MERN Stack through live classes, practical assignments and real-world projects. Learn from basics at student-friendly fees.">
+  <meta property="og:image" content="images/hero-illustration.svg">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://codesarthi-academy.vercel.app/">
+  <meta property="twitter:title" content="CodeSarthi Academy | Learn C++, Java &amp; MERN Stack">
+  <meta property="twitter:description" content="Master C++, Java and MERN Stack through live classes, practical assignments and real-world projects. Learn from basics at student-friendly fees.">
+  <meta property="twitter:image" content="images/hero-illustration.svg">
+
+  <!-- Favicon / Logo Icon -->
+  <link rel="icon" type="image/svg+xml" href="images/logo.svg">
+
+  <!-- FontAwesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Local CSS Styling -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ================================================================
+       1. NAVBAR SECTION
+  ================================================================ -->
+  <header class="header" id="navbar">
+    <div class="container navbar">
+      <a href="index.html" class="logo">
+        <img src="images/logo.svg" alt="CodeSarthi Academy Logo">
+      </a>
+      
+      <nav class="nav-menu">
+        <a href="index.html" class="nav-link active">Home</a>
+        <a href="courses.html" class="nav-link">Courses</a>
+        <a href="index.html#why-us" class="nav-link">Why Us</a>
+        <a href="training.html" class="nav-link">Free Training</a>
+        <a href="mentors.html" class="nav-link">Mentors</a>
+        <a href="testimonials.html" class="nav-link">Testimonials</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+      
+      <div class="nav-actions">
+        <a href="contact.html#demo-form" class="btn btn-secondary">Free Demo</a>
+        <a href="courses.html" class="btn btn-primary">Enroll Now</a>
+      </div>
+
+      <!-- Hamburger mobile trigger -->
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </header>
+
+
+  <!-- ================================================================
+       2. HERO SECTION
+  ================================================================ -->
+  <section class="hero" id="home">
+    <div class="container hero-grid">
+      <div class="hero-content reveal active">
+        <div class="hero-tag">
+          <span class="dot"></span> Admissions Open for 2026
+        </div>
+        <h1 class="hero-title">Learn Coding From Basics &amp; Build Your <span>Tech Career</span></h1>
+        <p class="hero-desc">Master C++, Java and MERN Stack through live interactive classes, practical assignments and real-world portfolio projects. Specially curated for school students, BCA, BSc CS, and B.Tech aspirants.</p>
+        <div class="hero-buttons">
+          <a href="training.html" class="btn btn-accent">Apply for Free Training <i class="fa-solid fa-graduation-cap"></i></a>
+          <a href="courses.html" class="btn btn-secondary">Explore Trainings</a>
+        </div>
+      </div>
+      
+      <div class="hero-image-container reveal active">
+        <!-- Floating technology badges with custom icons -->
+        <div class="tech-badge cpp">
+          <i class="fa-solid fa-code" style="color: #00599C;"></i> C++
+        </div>
+        <div class="tech-badge java">
+          <i class="fa-brands fa-java" style="color: #F89820;"></i> Java
+        </div>
+        <div class="tech-badge react">
+          <i class="fa-brands fa-react" style="color: #61DAFB;"></i> React
+        </div>
+        <div class="tech-badge node">
+          <i class="fa-brands fa-node-js" style="color: #339933;"></i> Node.js
+        </div>
+        <div class="tech-badge mongo">
+          <i class="fa-solid fa-database" style="color: #47A248;"></i> MongoDB
+        </div>
+        
+        <img class="hero-illustration" src="images/hero-illustration.svg" alt="CodeSarthi Coding Illustration">
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ================================================================
+       3. STATS SECTION
+  ================================================================ -->
+  <section class="stats">
+    <div class="container stats-grid">
+      <div class="stat-card">
+        <div class="stat-icon"><i class="fa-solid fa-user-graduate"></i></div>
+        <div class="stat-number" data-target="100" data-suffix="+">0</div>
+        <div class="stat-label">Students Enrolled</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-icon"><i class="fa-solid fa-book-open"></i></div>
+        <div class="stat-number" data-target="3" data-suffix="">0</div>
+        <div class="stat-label">Core Trainings</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-icon"><i class="fa-solid fa-circle-play"></i></div>
+        <div class="stat-number" data-target="150" data-suffix="+">0</div>
+        <div class="stat-label">Live Classes</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-icon"><i class="fa-solid fa-laptop-code"></i></div>
+        <div class="stat-number" data-target="20" data-suffix="+">0</div>
+        <div class="stat-label">Practical Projects</div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ================================================================
+       HIRING PARTNERS TICKER SECTION
+  ================================================================ -->
+  <section class="partners-section">
+    <div class="container">
+      <h3 class="partners-title">Our Alumni Work At Top Tech Companies</h3>
+      <div class="ticker-container">
+        <div class="ticker-track">
+          <!-- Repeat twice for infinite seamless scroll -->
+          <div class="ticker-logo"><i class="fa-brands fa-google"></i> Google</div>
+          <div class="ticker-logo"><i class="fa-brands fa-amazon"></i> Amazon</div>
+          <div class="ticker-logo"><i class="fa-brands fa-microsoft"></i> Microsoft</div>
+          <div class="ticker-logo"><i class="fa-brands fa-apple"></i> Apple</div>
+          <div class="ticker-logo"><i class="fa-brands fa-meta"></i> Meta</div>
+          <div class="ticker-logo"><i class="fa-solid fa-cloud"></i> Salesforce</div>
+          <div class="ticker-logo"><i class="fa-solid fa-code"></i> Coding Ninjas</div>
+          
+          <!-- Track Repeat -->
+          <div class="ticker-logo"><i class="fa-brands fa-google"></i> Google</div>
+          <div class="ticker-logo"><i class="fa-brands fa-amazon"></i> Amazon</div>
+          <div class="ticker-logo"><i class="fa-brands fa-microsoft"></i> Microsoft</div>
+          <div class="ticker-logo"><i class="fa-brands fa-apple"></i> Apple</div>
+          <div class="ticker-logo"><i class="fa-brands fa-meta"></i> Meta</div>
+          <div class="ticker-logo"><i class="fa-solid fa-cloud"></i> Salesforce</div>
+          <div class="ticker-logo"><i class="fa-solid fa-code"></i> Coding Ninjas</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ================================================================
+       WHO IS THIS FOR SECTION
+  ================================================================ -->
+  <section class="section" style="background-color: var(--background);">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Audience</span>
+        <h2 class="section-title">Who Is This For?</h2>
+        <p class="section-subtitle">Our curriculum is designed to help students build computational thinking from scratch, regardless of their current programming skills.</p>
+      </div>
+
+      <div class="who-for-grid">
+        <!-- Target 1 -->
+        <div class="who-for-card reveal">
+          <div class="who-for-icon"><i class="fa-solid fa-school"></i></div>
+          <h3 class="who-for-title">Class 9-12 Students</h3>
+          <p class="who-for-desc">Build logic, prepare for school board exams, and get a head start in computer applications (C++ and Java basics).</p>
+        </div>
+
+        <!-- Target 2 -->
+        <div class="who-for-card reveal">
+          <div class="who-for-icon"><i class="fa-solid fa-university"></i></div>
+          <h3 class="who-for-title">B.Tech/BCA/BSc CS Students</h3>
+          <p class="who-for-desc">Specially tailored for 2nd &amp; 3rd-year university students looking to master OOPs, coding rounds, and full-stack development.</p>
+        </div>
+
+        <!-- Target 3 -->
+        <div class="who-for-card reveal">
+          <div class="who-for-icon"><i class="fa-solid fa-baby-carriage"></i></div>
+          <h3 class="who-for-title">Complete Beginners</h3>
+          <p class="who-for-desc">We assume you have never written a single line of code. We explain every semicolon and bracket step-by-step.</p>
+        </div>
+
+        <!-- Target 4 -->
+        <div class="who-for-card reveal">
+          <div class="who-for-icon"><i class="fa-solid fa-ghost"></i></div>
+          <h3 class="who-for-title">Students Who Fear Coding</h3>
+          <p class="who-for-desc">Break the fear of syntax errors. Learn in a highly structured, supportive environment with active daily doubt support.</p>
+        </div>
+
+        <!-- Target 5 -->
+        <div class="who-for-card reveal">
+          <div class="who-for-icon"><i class="fa-solid fa-folder-closed"></i></div>
+          <h3 class="who-for-title">Students Wanting Resume Projects</h3>
+          <p class="who-for-desc">Build practical portfolio applications (like full-stack web platforms) to stand out in internships and college placements.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ================================================================
+       4. WHY CHOOSE US
+  ================================================================ -->
+  <section class="why-us section" id="why-us" style="background-color: white;">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Why Us</span>
+        <h2 class="section-title">Why CodeSarthi?</h2>
+        <p class="section-subtitle">We design our trainings to match student requirements with maximum practicality and doubt support.</p>
+      </div>
+      
+      <div class="why-grid-7">
+        <div class="why-card reveal">
+          <div class="why-icon-box"><i class="fa-solid fa-graduation-cap"></i></div>
+          <h3 class="why-title">Beginner-friendly teaching</h3>
+          <p class="why-desc">No jargon. We teach starting with flowcharts and variables, ensuring zero confusion for young and beginner students.</p>
+        </div>
+        
+        <div class="why-card reveal">
+          <div class="why-icon-box"><i class="fa-solid fa-wallet"></i></div>
+          <h3 class="why-title">Affordable fees</h3>
+          <p class="why-desc">Premium live training at student-friendly pricing so that quality computer education is accessible to everyone.</p>
+        </div>
+        
+        <div class="why-card reveal">
+          <div class="why-icon-box"><i class="fa-solid fa-keyboard"></i></div>
+          <h3 class="why-title">Live practice</h3>
+          <p class="why-desc">Don't just watch videos. Code live alongside the mentor, answering interactive coding challenges during class.</p>
+        </div>
+        
+        <div class="why-card reveal">
+          <div class="why-icon-box"><i class="fa-solid fa-circle-question"></i></div>
+          <h3 class="why-title">Doubt support</h3>
+          <p class="why-desc">Stuck on a compiler error? Dedicated daily doubt support sessions ensure all your bugs are cleared within hours.</p>
+        </div>
+        
+        <div class="why-card reveal">
+          <div class="why-icon-box"><i class="fa-solid fa-file-signature"></i></div>
+          <h3 class="why-title">Assignments after every class</h3>
+          <p class="why-desc">Practice makes perfect. Complete curated weekly assignments designed to cement logic rules and structure.</p>
+        </div>
+        
+        <div class="why-card reveal">
+          <div class="why-icon-box"><i class="fa-solid fa-users"></i></div>
+          <h3 class="why-title">Small batches</h3>
+          <p class="why-desc">We keep batch sizes restricted to ensure every student gets individual attention, question time, and support.</p>
+        </div>
+
+        <div class="why-card reveal">
+          <div class="why-icon-box"><i class="fa-solid fa-folder-open"></i></div>
+          <h3 class="why-title">Project-based learning</h3>
+          <p class="why-desc">Build real-world desktop utilities and deploy full-stack database-driven web applications to host live on clouds.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ================================================================
+       5. TRAINING TEASER SECTION
+  ================================================================ -->
+  <section class="section" style="background-color: var(--primary-light);">
+    <div class="container" style="text-align: center; max-width: 800px;">
+      <div class="reveal">
+        <span class="section-tag" style="background-color: white;">Scholarship Cohort</span>
+        <h2 class="section-title" style="margin-top: 10px;">Free Summer &amp; Winter Training</h2>
+        <p class="section-subtitle" style="margin-bottom: 32px;">Are you in Class 9-12 or studying B.Tech/BCA/BSc CS? We run completely free foundation coding camps during semester breaks to help you build basic skills without fees.</p>
+        <a href="training.html" class="btn btn-accent">Learn More &amp; Register <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ================================================================
+       6. COURSES TEASER
+  ================================================================ -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Trainings</span>
+        <h2 class="section-title">Our Featured Trainings</h2>
+        <p class="section-subtitle">Accelerate your coding journey with our dedicated live trainings.</p>
+      </div>
+
+      <!-- Preview layout containing 3 major training courses -->
+      <div class="why-grid" style="margin-bottom: 40px;">
+        <div class="why-card reveal" style="background-color: white; border-color: var(--border-color);">
+          <span class="cohort-season" style="background-color: var(--primary-light); color: var(--primary); padding: 4px 12px; border-radius: 30px; font-weight: 700; font-size: 11px;">4 WEEKS</span>
+          <h3 class="why-title" style="margin-top: 16px;">C++ Beginner Training</h3>
+          <p class="why-desc">Logic building, arrays, matrices, string parsing, and Standard Template Library (STL).</p>
+          <a href="courses.html" style="color: var(--primary); font-weight: 600; display: inline-flex; align-items: center; margin-top: 16px; font-size: 14px;">View Curriculum <i class="fa-solid fa-arrow-right" style="margin-left: 6px;"></i></a>
+        </div>
+
+        <div class="why-card reveal" style="background-color: white; border-color: var(--border-color);">
+          <span class="cohort-season" style="background-color: var(--primary-light); color: var(--primary); padding: 4px 12px; border-radius: 30px; font-weight: 700; font-size: 11px;">4 WEEKS</span>
+          <h3 class="why-title" style="margin-top: 16px;">Java Beginner Training</h3>
+          <p class="why-desc">Fundamentals of Java runtime, OOP rules (Inheritance, Polymorphism) and Collections API.</p>
+          <a href="courses.html" style="color: var(--primary); font-weight: 600; display: inline-flex; align-items: center; margin-top: 16px; font-size: 14px;">View Curriculum <i class="fa-solid fa-arrow-right" style="margin-left: 6px;"></i></a>
+        </div>
+
+        <div class="why-card reveal" style="background-color: white; border-color: var(--border-color);">
+          <span class="cohort-season" style="background-color: var(--primary-light); color: var(--primary); padding: 4px 12px; border-radius: 30px; font-weight: 700; font-size: 11px;">8 WEEKS</span>
+          <h3 class="why-title" style="margin-top: 16px;">MERN Stack Starter</h3>
+          <p class="why-desc">Build interactive web apps using React.js, Node.js, Express.js, and MongoDB.</p>
+          <a href="courses.html" style="color: var(--primary); font-weight: 600; display: inline-flex; align-items: center; margin-top: 16px; font-size: 14px;">View Curriculum <i class="fa-solid fa-arrow-right" style="margin-left: 6px;"></i></a>
+        </div>
+      </div>
+
+      <div style="text-align: center;">
+        <a href="courses.html" class="btn btn-primary">Browse All Trainings &amp; Pricing</a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ================================================================
+       12. FOOTER SECTION
+  ================================================================ -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <img src="images/logo.svg" alt="CodeSarthi Logo Light">
+        <p class="footer-desc">Empowering next-generation developers by making coding accessible, interactive, and structured. Learn from the absolute basics.</p>
+        <div class="footer-socials">
+          <a href="#" class="footer-social-btn"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" class="footer-social-btn"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="#" class="footer-social-btn"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="#" class="footer-social-btn"><i class="fa-brands fa-github"></i></a>
+        </div>
+      </div>
+      
+      <div>
+        <h3 class="footer-title">Quick Links</h3>
+        <ul class="footer-links">
+          <li><a href="index.html" class="footer-link">Home</a></li>
+          <li><a href="index.html#why-us" class="footer-link">Why Us</a></li>
+          <li><a href="training.html" class="footer-link">Free Training</a></li>
+          <li><a href="mentors.html" class="footer-link">Mentors</a></li>
+          <li><a href="contact.html" class="footer-link">Contact</a></li>
+        </ul>
+      </div>
+      
+      <div>
+        <h3 class="footer-title">Trainings</h3>
+        <ul class="footer-links">
+          <li><a href="courses.html" class="footer-link">C++ Beginner Training</a></li>
+          <li><a href="courses.html" class="footer-link">Java Beginner Training</a></li>
+          <li><a href="courses.html" class="footer-link">MERN Stack Starter</a></li>
+          <li><a href="courses.html" class="footer-link">DSA Foundation (Soon)</a></li>
+        </ul>
+      </div>
+      
+      <div>
+        <h3 class="footer-title">Contact Support</h3>
+        <div class="footer-info-item">
+          <i class="fa-solid fa-map-marker-alt"></i>
+          <span>Sector 62, Noida,<br>Uttar Pradesh, India - 201301</span>
+        </div>
+        <div class="footer-info-item">
+          <i class="fa-solid fa-envelope"></i>
+          <span>support@codesarthi.com</span>
+        </div>
+        <div class="footer-info-item">
+          <i class="fa-solid fa-phone"></i>
+          <span>+91 98765 43210</span>
+        </div>
+      </div>
+    </div>
+    
+    <div class="container footer-bottom">
+      <p class="footer-copy">&copy; 2026 CodeSarthi Academy. All Rights Reserved. Built with HTML, CSS, and Vanilla JS.</p>
+      <div class="footer-meta-links">
+        <a href="#" class="footer-meta-link">Privacy Policy</a>
+        <a href="#" class="footer-meta-link">Terms of Service</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Back To Top button -->
+  <div class="back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </div>
+
+  <!-- Pure JavaScript Logic -->
+  <script src="js/script.js"></script>
+</body>
+</html>

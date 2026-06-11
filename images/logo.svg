@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 60" width="260" height="60" fill="none">
+  <defs>
+    <!-- Gradients -->
+    <linearGradient id="logo-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563EB" />
+      <stop offset="100%" stop-color="#3B82F6" />
+    </linearGradient>
+    <linearGradient id="accent-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#22C55E" />
+      <stop offset="100%" stop-color="#4ADE80" />
+    </linearGradient>
+  </defs>
+
+  <!-- Logo Icon -->
+  <g transform="translate(10, 10)">
+    <!-- Graduation Cap / Hat base -->
+    <path d="M 20,4 L 38,13 L 20,22 L 2,13 Z" fill="url(#logo-grad)" />
+    <!-- Tassel -->
+    <path d="M 32,16 L 32,27 C 32,29 34,29 34,29" stroke="#22C55E" stroke-width="2" stroke-linecap="round" fill="none" />
+    <circle cx="34" cy="29" r="2" fill="#22C55E" />
+    
+    <!-- Code Brackets (Slightly overlapped under the cap) -->
+    <path d="M 12,25 L 4,31 L 12,37" stroke="url(#logo-grad)" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+    <path d="M 28,25 L 36,31 L 28,37" stroke="url(#logo-grad)" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+    
+    <!-- Sarthi (Steering/Charioteer/Guide symbol - represented by a subtle guide star/compass point in the center) -->
+    <path d="M 20,27 L 22,31 L 26,31 L 23,34 L 24,38 L 20,35 L 16,38 L 17,34 L 14,31 L 18,31 Z" fill="url(#accent-grad)" />
+  </g>
+
+  <!-- Brand Typography -->
+  <text x="65" y="32" font-family="'Poppins', sans-serif" font-weight="800" font-size="22" fill="#0F172A">CodeSarthi</text>
+  <text x="65" y="48" font-family="'Inter', sans-serif" font-weight="600" font-size="12" fill="#2563EB" letter-spacing="3">ACADEMY</text>
+</svg>
