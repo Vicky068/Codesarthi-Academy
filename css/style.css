@@ -239,7 +239,7 @@ ul {
   left: 0;
   width: 100%;
   z-index: 1000;
-  background-color: transparent;
+  background-color: white;
   border-bottom: 1px solid transparent;
   transition: var(--transition);
 }
